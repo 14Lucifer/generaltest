@@ -1,0 +1,24 @@
+2023-02-03 10:16:02,553 :: INFO :: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.210.100:5000
+2023-02-03 10:16:02,553 :: INFO :: [33mPress CTRL+C to quit[0m
+2023-02-03 10:16:02,555 :: INFO ::  * Restarting with stat
+2023-02-03 10:16:02,942 :: WARNING ::  * Debugger is active!
+2023-02-03 10:16:02,946 :: INFO ::  * Debugger PIN: 517-988-471
+2023-02-03 10:17:14,839 :: INFO :: ----------------------------------------------------------
+2023-02-03 10:17:14,839 :: INFO :: Request header : {'User-Agent': 'PostmanRuntime/7.30.0', 'Accept': '*/*', 'Cache-Control': 'no-cache', 'Postman-Token': 'b733438d-3f56-4ce3-b21c-e68cbe0e2c41', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
+2023-02-03 10:17:14,840 :: INFO :: Request Authorization header : None
+2023-02-03 10:17:14,840 :: INFO :: Request param : 
+2023-02-03 10:17:14,840 :: INFO :: Request body : 
+2023-02-03 10:17:14,841 :: INFO :: 127.0.0.1 - - [03/Feb/2023 10:17:14] "GET /apig/simpletest/test HTTP/1.1" 200 -
+2023-02-03 10:17:19,256 :: WARNING ::  * Debugger is active!
+2023-02-03 10:17:19,257 :: INFO ::  * Debugger PIN: 517-988-471
+2023-02-03 10:17:21,882 :: INFO :: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-02-03 10:17:21,882 :: INFO :: [33mPress CTRL+C to quit[0m
+2023-02-03 10:17:21,882 :: INFO ::  * Restarting with stat
+2023-02-03 10:17:22,185 :: WARNING ::  * Debugger is active!
+2023-02-03 10:17:22,185 :: INFO ::  * Debugger PIN: 517-988-471
+2023-02-03 10:17:22,558 :: WARNING ::  * Debugger is active!
+2023-02-03 10:17:22,558 :: INFO ::  * Debugger PIN: 517-988-471
