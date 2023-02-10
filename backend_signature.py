@@ -18,6 +18,7 @@ def requires_apigateway_signature():
 
         authorizationPattern = re.compile(
             r'SDK-HMAC-SHA256\s+Access=([^,]+),\s?SignedHeaders=([^,]+),\s?Signature=(\w+)')
+            # Signature support basic and HMAC method. Above is only for HMAC. 
         BasicDateFormat = "%Y%m%dT%H%M%SZ"
 
         @wraps(f)

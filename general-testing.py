@@ -105,14 +105,14 @@ def selflab():
     flask_logging(request)
     try:
         # mandator
-        inputName = request.headers.get("User-name")
+        inputName = request.headers.get("username")
         # optional
-        reqType = request.headers.get("Request-type")
+        reqType = request.headers.get("Request-Type")
         # constant
         usrType = request.headers.get("User-type")
         # system
-        sourceIp = request.headers.get("Source-IP")
-        reqId = request.headers.get("Request-ID")
+        sourceIp = request.headers.get("source-IP")
+        reqId = request.headers.get("request-ID")
 
         rsp_dict = {
             "username" : inputName,
@@ -151,9 +151,7 @@ def selflab():
 
 @app.route("/")
 def index():
-    hostname = socket.gethostname()
-    localaddr = socket.gethostbyname(hostname)
-    return render_template('index.html', hostname=platform.node(), ipaddr=localaddr)
+    return "Welcome to test app!"
 
 @app.route("/svrinfo/test")
 def svrtest():
