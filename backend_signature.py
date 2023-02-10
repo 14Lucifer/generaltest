@@ -6,10 +6,11 @@ from datetime import datetime
 from datetime import timedelta
 from apig_sdk import signer
 import json
+import os
 
 app = Flask(__name__)
 
-with open ("/secret/secrets.json", "r") as f:
+with open ("secrets.json", "r") as f:
     secrets = json.loads(f.read())
 
 def requires_apigateway_signature():
